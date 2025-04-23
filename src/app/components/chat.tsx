@@ -26,13 +26,13 @@ export function Chat() {
         <main className="flex flex-col w-full h-screen max-h-dvh bg-background">
 
             <header className="p-4 border-b w-full max-w-3xl mx-auto">
-                <h1 className="text-2xl font-bold">LangChain Chat</h1>
+                <h1 className="text-2xl font-bold">Logo Here</h1>
             </header>
 
             <section className="p-4">
                 <form onSubmit={handleSubmit} className="flex w-full max-w-3xl mx-auto items-center">
-                    <Input className="flex-1 min-h-[40px]" placeholder="Type your question here..." type="text" value={input} onChange={handleInputChange} />
-                    <Button className="ml-2" type="submit">
+                    <Input className="flex-1 min-h-[40px]" placeholder="Ask me anything..." type="text" value={input} onChange={handleInputChange} />
+                    <Button className="ml-2 font-semibold" type="submit">
                         Submit
                     </Button>
                 </form>
